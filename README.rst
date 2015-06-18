@@ -2,9 +2,10 @@ Manual
 ------------
 
 Useful settings (location domino/settings/base.py)
-IMAGE_CONTENT_TYPES - acceptable image content types
-IMAGE_COLOR_PERSIST_MODE - whether hex or color name should be taken into consideration when constructing color set
-IMAGE_EXTRACTION_MODE - whether color extraction should run in 'sync' or 'async' mode
+
+a) IMAGE_CONTENT_TYPES - acceptable image content types
+b) IMAGE_COLOR_PERSIST_MODE - whether hex or color name should be taken into consideration when constructing color set
+c) IMAGE_EXTRACTION_MODE - whether color extraction should run in 'sync' or 'async' mode
 
 
 1. Clone project

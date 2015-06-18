@@ -105,7 +105,7 @@ IMAGE_CONTENT_TYPES = [
 
 # whether to handle color extraction syncrhonously or asynchronously
 # available options 'async' or 'sync'
-IMAGE_EXTRACTION_MODE = 'async'
+IMAGE_EXTRACTION_MODE = 'sync'
 
 # 2 options available all, hex, name.
 # if name - unique set of colors based on name will be saved

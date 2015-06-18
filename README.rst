@@ -99,7 +99,7 @@ In other terminbal start Celery worker
 
 .. code-block:: bash
 
-    $ celery -A domino worker --loglevel=INFO
+    $ venv/bin/celery -A domino worker --loglevel=INFO
 
 
 Image handling should be significantly faster:

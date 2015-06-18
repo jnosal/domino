@@ -7,6 +7,11 @@ a) IMAGE_CONTENT_TYPES - acceptable image content types
 b) IMAGE_COLOR_PERSIST_MODE - whether hex or color name should be taken into consideration when constructing color set
 c) IMAGE_EXTRACTION_MODE - whether color extraction should run in 'sync' or 'async' mode
 
+0. Useful linux packages
+
+.. code-block:: bash
+
+    $ sudo apt-get install build-essential python-dev python-virtualenv python-dev g++ python-software-properties curl libjpeg62 libjpeg62-dev
 
 1. Clone project
 

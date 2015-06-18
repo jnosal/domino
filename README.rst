@@ -112,3 +112,10 @@ Image handling should be significantly faster:
 .. code-block:: bash
 
     $ curl -X POST -F "image1=@data/cobra.jpg" -F "image2=@data/onlywhite.jpg" http://localhost:8000/api/v1/imagefile
+
+
+What can be than to improve overall project:
+
+a) adding authentication / authorization policies
+b) serving application via uwsgi / gunicorn and static files using nginx
+c) Running in async mode with multiple celery workers

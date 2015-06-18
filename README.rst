@@ -118,4 +118,6 @@ What can be than to improve overall project:
 
 a) adding authentication / authorization policies
 b) serving application via uwsgi / gunicorn and static files using nginx
-c) Running in async mode with multiple celery workers
+c) running in async mode with multiple celery workers
+d) replacing sqlite with postgresql or mysql
+e) considering storing image files on S3
